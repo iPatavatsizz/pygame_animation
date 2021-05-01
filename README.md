@@ -4,7 +4,7 @@
 
 Updates for this module will come as soon as possible.
 
-game.py
+- game.py
 
 ```py
 import pygame
