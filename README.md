@@ -17,7 +17,7 @@ display = pygame.display.set_mode((800, 400))
 main_surface = pygame.Surface(display.get_size())
 
 # Initalize character
-my_character = animation.init(main_surface, "assests/characters/mycharacter.png", True)
+my_character = animation.Character(main_surface, "assests/characters/mycharacter.png", True)
 
 clock = pygame.time.Clock()
 
