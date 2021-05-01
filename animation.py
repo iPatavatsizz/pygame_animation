@@ -207,8 +207,3 @@ class Character(pygame.sprite.Sprite):
         else:
             self.character['state'] = "still"
             self.character['animation_count'] = 0
-
-
-# Initalize Character Class
-def init(surface, image, animate):
-    return Character(surface, image, animate)

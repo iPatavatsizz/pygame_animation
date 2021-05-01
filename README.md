@@ -40,32 +40,79 @@ pygame.quit()
 exit()
 ```
 
-## Methods/Functions
+## **Classes**
 
-### init(surface, image, animate, size, fps)
+---
 
-### Parameters/Variables
+### *Character.Character(surface, image, animate, size, fps)*
 
-#### surface: pygame.surface Surface to draw sprite
+#### **Description**
 
-#### image: str("assests/player.png")  Image path to load
+##### Base character class of animation module
 
-#### animate:   bool(True/False)           True for animation
+#### **Parameters/Variables**
 
-#### size   :   tuple(int, int)            Size of character, exmple: You draw your character 11x89 pixel use(11, 89) or 32x32 use (32, 32)
+---
+> **surface** *pygame.surface*
 
-### Description
+- **default:** None
 
--> Returns Character class.
+- **example:** "assests/player.png"
 
--> animate()
-parameters:
-    fps: integer, frame per second to draw animation
-desc: draws character (sprite/image) to surface.
-example usage:
-    character.animate(fps=30)
+---
+> **image** *(str)*
 
--> update()
-desc: updates character class
-parameters:
-* no parameters for this, just call it.
+- **default:** None
+
+- **example:** "assests/player.png"
+
+---
+> **animate** *bool*
+
+- **default:** True
+
+- **example:** True/False
+
+---
+> **size** *tuple(int, int)*
+
+- **default:** (32, 32)
+
+- **example:** (11, 89)
+
+---
+
+##### **Size:** *Pixel size of sprite (32x32, 11,89, 64x64) -> (32,32 11,80, 64,64)*
+
+## **Methods/Functions**
+
+#### Use these funcs/methods in your game loop
+
+---
+
+### *Character.animate(fps)*
+
+### **Description**
+
+#### Draws character to surface
+
+### **Parameters /Variables**
+
+---
+> **fps** *integer*
+
+- **default:** 30
+
+- **example:** 30, 60
+
+### *Character.update()*
+
+### **Description**
+
+#### Updates character class parameters
+
+### **Parameters /Variables**
+
+---
+
+#### No parameters for this, just call it on your game loop
