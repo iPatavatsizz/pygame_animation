@@ -46,11 +46,11 @@ exit()
 
 ### *Character.Character(surface, image, animate, size, fps)*
 
-#### **Description**
+Description
 
-##### Base character class of animation module
+#### Base character class of animation module
 
-#### **Parameters/Variables**
+Parameters/Variables
 
 ---
 > **surface** *pygame.surface*
@@ -86,13 +86,13 @@ exit()
 
 ## **Methods/Functions**
 
-#### Use these funcs/methods in your game loop
+Use these funcs/methods in your game loop
 
 ---
 
 ### *Character.animate(fps)*
 
-### **Description**
+Description
 
 #### Draws character to surface
 
@@ -107,11 +107,11 @@ exit()
 
 ### *Character.update()*
 
-### **Description**
+Description
 
 #### Updates character class parameters
 
-### **Parameters /Variables**
+Parameters /Variables
 
 ---
 
