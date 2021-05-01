@@ -1,56 +1,11 @@
 # CharacterRenderer.py
 # by iPatavatsizz/Hx0z
 # v 0.1
+# https://github.com/iPatavatsizz/pygame_animation
 
 """
-NOTE: Read line by line and try to understand me ;)
-
-Class -> Character:
-Main class of character module.
-
-Methods/Functions:
-* The Class uses its functions in itself. So you can use only:
-
--> init(surface, image, animate, size, fps)
-parameters/variables:
-    surface:   pygame.surface             -> Surface to draw sprite
-    image  :   str("assests/player.png")  -> Image path to load
-    animate:   bool(True/False)           -> True for animation
-    size   :   tuple(int, int)            -> Size of character, exmple: You draw your character 11x89 pixel use(11, 89) or 32x32 use (32, 32)
-desc: returns Character class.
-
--> animate()
-parameters:
-    fps: integer, frame per second to draw animation
-desc: draws character (sprite/image) to surface.
-example usage:
-    character.animate(fps=30)
-
--> update()
-desc: updates character class
-parameters:
-* no parameters for this, just call it.
-
-*** There is no any methods/functions/process to you do. ***
-
-Example usage of class:
-in your game.py module:
 
 ...
-import how_to_animate/renamed_animation_file(in here CharacterSprite)
-
-display = pygame.display.set_mode((800, 400))
-my_main_surface = pygame.Surface(display.get_size())
-character1 = CharacterSprite.init(my_main_surface, "assests/characters/mycharacter.png", True, (32, 32))
-
-(your game loop)
-while True:
-    my_main_surface.fill((0, 0, 0))
-    character.update()
-    character.animate(fps=30)
-    pygame.display.update()
-...
-
 * Struggles with animation sprite?
 - Look my ready test sprite
 - Make your all animations in a image file.
