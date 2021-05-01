@@ -57,8 +57,6 @@ Parameters/Variables
 
 - **default:** None
 
-- **example:** "assests/player.png"
-
 ---
 > **image** *(str)*
 
