@@ -4,7 +4,7 @@
 
 Updates for this module will come as soon as possible.
 
-game.py - change v0.2.0
+game.py - change v0.2.0 test 3 for v0.2.0 tag update.
 
 ```py
 import pygame
