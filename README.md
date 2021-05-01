@@ -2,6 +2,8 @@
 
 > **Pygame Animation Module / Hx0z**
 
+Updates for this module will come as soon as possible.
+
 game.py
 
 ```py
