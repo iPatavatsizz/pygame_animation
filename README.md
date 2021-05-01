@@ -4,7 +4,7 @@
 
 Updates for this module will come as soon as possible.
 
-- game.py
+game.py - change v0.2.0
 
 ```py
 import pygame
